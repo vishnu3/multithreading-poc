@@ -1,15 +1,13 @@
 # multithreading-poc
 Welcome !! 
-Repository have Java Multithreading exploration and each branch conatains poc.
 
-Also, demostrated how to do java performance tuning using verious lndustry level tecniq
+Demo : Completable future 
 
-JAVA VERSION : 8
+Tech :
+Java 8
+Spring boot 2.0
 
-This repo have poc for 
 
-1.Multithreading Design pattern using java 8 lambda
-2. Thread pools
-3.Multithrading in spring boot
-
-Please read README file of each branch to understamd more about poc deatils of particular branch
+Performance Test tools:
+JMeter
+Micrometer
