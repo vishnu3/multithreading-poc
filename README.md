@@ -2,6 +2,8 @@
 Welcome !! 
 Repository have Java Multithreading exploration and each branch conatains poc.
 
+Also, demostrated how to do java performance tuning using verious lndustry level tecniq
+
 JAVA VERSION : 8
 
 This repo have poc for 
