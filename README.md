@@ -1,2 +1,3 @@
 # multithreading-poc
-Welcome !! Repository is for Java Multithreading exploration 
+Welcome !! 
+Repository have Java Multithreading exploration and poc.
