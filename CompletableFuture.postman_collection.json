@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "49a090e7-6518-4e66-b5e4-64bda7a9e3a6",
+		"name": "CompletableFuture",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9191/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": "/C:/VishnuJ/GitCode/mutithreading-poc/MOCK_DATA.csv"
+						},
+						{
+							"key": "files",
+							"type": "file",
+							"src": "/C:/VishnuJ/GitCode/mutithreading-poc/MOCK_DATA-2.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:9191/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/getUsersByThread",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/getUsersByThread",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"getUsersByThread"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
